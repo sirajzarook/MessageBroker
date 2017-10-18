@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dropship.Ofs.Processor", "Dropship.Ofs.Processor\Dropship.Ofs.Processor.csproj", "{6962F0A0-8F59-40C8-A6FA-68C252929885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2964A60A-291B-4DF0-8977-B87F802B818C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dropship.UnitTests", "Tests\Dropship.UnitTests\Dropship.UnitTests.csproj", "{1091B4D3-7188-47CD-A9C4-49C77E47FE4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dropship.IntegrationTests", "Tests\Dropship.IntegrationTests\Dropship.IntegrationTests.csproj", "{F3F5023C-661A-43DC-8924-F10C5DD47ACC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllSaints.MessageBroker", "AllSaints.MessageBroker\AllSaints.MessageBroker.csproj", "{1559FA00-C27F-4218-81C9-86FC99403379}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllSaints.MessageBroker.Kafka", "AllSaints.MessageBroker.Kafka\AllSaints.MessageBroker.Kafka.csproj", "{2890BD61-67B4-491C-B2A9-E458D639BD74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allsaints.MessageLogger", "Allsaints.MessageLogger\Allsaints.MessageLogger.csproj", "{E09C890D-3C05-4A80-AB24-7C423C788820}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllSaints.MessageLogger.NLog", "AllSaints.MessageLogger.NLog\AllSaints.MessageLogger.NLog.csproj", "{8904F054-053A-4257-8ECD-7F594AF60E8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllSaints.MessageBroker.KafkaTests", "Tests\AllSaints.MessageBroker.KafkaTests\AllSaints.MessageBroker.KafkaTests.csproj", "{693B2B0E-3D24-4CEB-9A7C-257142AB723E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllSaints.MessageBroker.KafkaPersistanceTests", "AllSaints.MessageBroker.KafkaPersistanceTests\AllSaints.MessageBroker.KafkaPersistanceTests.csproj", "{1BF766CB-67B1-423F-9F76-2B60C11D5E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6962F0A0-8F59-40C8-A6FA-68C252929885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6962F0A0-8F59-40C8-A6FA-68C252929885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6962F0A0-8F59-40C8-A6FA-68C252929885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6962F0A0-8F59-40C8-A6FA-68C252929885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1091B4D3-7188-47CD-A9C4-49C77E47FE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1091B4D3-7188-47CD-A9C4-49C77E47FE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1091B4D3-7188-47CD-A9C4-49C77E47FE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1091B4D3-7188-47CD-A9C4-49C77E47FE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F5023C-661A-43DC-8924-F10C5DD47ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F5023C-661A-43DC-8924-F10C5DD47ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F5023C-661A-43DC-8924-F10C5DD47ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F5023C-661A-43DC-8924-F10C5DD47ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1559FA00-C27F-4218-81C9-86FC99403379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1559FA00-C27F-4218-81C9-86FC99403379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1559FA00-C27F-4218-81C9-86FC99403379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1559FA00-C27F-4218-81C9-86FC99403379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2890BD61-67B4-491C-B2A9-E458D639BD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2890BD61-67B4-491C-B2A9-E458D639BD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2890BD61-67B4-491C-B2A9-E458D639BD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2890BD61-67B4-491C-B2A9-E458D639BD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09C890D-3C05-4A80-AB24-7C423C788820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09C890D-3C05-4A80-AB24-7C423C788820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09C890D-3C05-4A80-AB24-7C423C788820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09C890D-3C05-4A80-AB24-7C423C788820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8904F054-053A-4257-8ECD-7F594AF60E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8904F054-053A-4257-8ECD-7F594AF60E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8904F054-053A-4257-8ECD-7F594AF60E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8904F054-053A-4257-8ECD-7F594AF60E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693B2B0E-3D24-4CEB-9A7C-257142AB723E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693B2B0E-3D24-4CEB-9A7C-257142AB723E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693B2B0E-3D24-4CEB-9A7C-257142AB723E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693B2B0E-3D24-4CEB-9A7C-257142AB723E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF766CB-67B1-423F-9F76-2B60C11D5E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF766CB-67B1-423F-9F76-2B60C11D5E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF766CB-67B1-423F-9F76-2B60C11D5E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF766CB-67B1-423F-9F76-2B60C11D5E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1091B4D3-7188-47CD-A9C4-49C77E47FE4F} = {2964A60A-291B-4DF0-8977-B87F802B818C}
+		{F3F5023C-661A-43DC-8924-F10C5DD47ACC} = {2964A60A-291B-4DF0-8977-B87F802B818C}
+		{693B2B0E-3D24-4CEB-9A7C-257142AB723E} = {2964A60A-291B-4DF0-8977-B87F802B818C}
+		{1BF766CB-67B1-423F-9F76-2B60C11D5E9B} = {2964A60A-291B-4DF0-8977-B87F802B818C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DE77098-241F-48EC-A5FA-6474E666D16A}
+	EndGlobalSection
+EndGlobal
